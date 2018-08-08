@@ -1556,6 +1556,9 @@ input, select, textarea {
 			display: inline-block;
 			padding-left: 0;
 			margin-top: 0;
+			-ms-transform: skewX(20deg);
+			-webkit-transform: skewX(20deg);
+			transform: skewX(20deg);
 		}
 
 		ul.icons a {
@@ -2148,11 +2151,14 @@ input, select, textarea {
 			}
 
 		#footer .icons {
-			padding: 0.75em 2em 0.75em 2em;
-			border-radius: 3em;
+			padding: 0.1em 1em;
+			/* border-radius: 3em; */
 			border: solid 1px #fff;
 			display: inline-block;
 			margin: 0 0 3em 0;
+			-ms-transform: skewX(-20deg);
+			-webkit-transform: skewX(-20deg);
+			transform: skewX(-20deg);
 		}
 
 		#footer .copyright {
