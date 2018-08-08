@@ -1753,10 +1753,12 @@ input, select, textarea {
 		cursor: pointer;
 		text-decoration: none;
 		outline: 0;
-		padding: 1em 3em 1em 3em;
+		padding: 0.5em 2em;
 		text-align: center;
-		border-radius: 3em;
 		font-weight: 400;
+		-ms-transform: skewX(-20deg);
+		-webkit-transform: skewX(-20deg);
+		transform: skewX(-20deg);
 	}
 
 		input[type="button"]:hover,
