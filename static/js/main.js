@@ -11,10 +11,10 @@
 		settings = {
 
 			// Parallax background effect?
-				parallax: false,
+				parallax: true,
 
 			// Parallax factor (lower = more intense, higher = less intense).
-				parallaxFactor: 10
+				parallaxFactor: 9
 
 		};
 

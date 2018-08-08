@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background-color: #170D57;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("http://res.cloudinary.com/zheisey/image/upload/c_scale,w_1440/v1533751845/mendable/main-background.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -2338,7 +2338,7 @@ input, select, textarea {
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				/* background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg"); */
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
