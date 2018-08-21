@@ -1,6 +1,20 @@
 +++
 title = "Home"
 +++
+<!-- Phone CTA -->
+<section id="phone-cta">
+	<form method="post" action="#" class="container">
+		<div class="row">
+			<div class="col-4 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
+			<div class="col-4 col-12-mobile"><input type="text" class="text" name="phone" placeholder="Phone Number" /></div>
+			<div class="col-4 col-12-mobile">
+				<ul class="actions">
+					<li><input type="submit" value="Get Updates" /></li>
+				</ul>
+			</div>
+		</div>
+	</form>
+</section>
 <!-- Banner -->
 <section id="banner">
 	<header>
